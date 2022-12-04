@@ -1,0 +1,42 @@
+count       492
+mean    25.4339
+std     9.89956
+min           3
+25%          18
+50%       24.25
+75%        32.5
+max        56.5
+Name: SWEET, dtype: float64
+The best parameters chosen: {'alpha': 4.95959595959596, 'l1_ratio': 0.0}
+The score of the best model: -97.16897269658946
+The best parameters chosen: {'max_depth': 3, 'n_estimators': 17}
+The score of the best model: -91.09870044915533
+MSE for different models:
+Linear: 83.37148803418587
+Non-linear: 87.01972412936902
+Chosen model is: linear model. Test MSE: 83.37148803418587
+
+Different train/test dataset:
+-----------------------------
+count       492
+mean    25.4339
+std     9.89956
+min           3
+25%          18
+50%       24.25
+75%        32.5
+max        56.5
+Name: SWEET, dtype: float64
+Search for best linear model
+The best parameters chosen: {'alpha': 10.8989898989899, 'l1_ratio': 0.0}
+The score of the best model: -91.88267969484224
+Search for best non-linear model
+The best parameters chosen: {'max_depth': 3, 'n_estimators': 9}
+The score of the best model: -90.95900779753299
+Test models using test dataset
+MSE for different models:
+Linear: 115.11264962872379
+Non-linear: 115.23604321194763
+Chosen model is: linear model. Test MSE: 115.11264962872379
+
+Process finished with exit code 0
